@@ -7,7 +7,7 @@ const Error = () => {
         <main className="K-error">
             <h1 className="K-error__statut">404</h1>
             <p className="K-error__text">Oups! La page que vous demandez n'existe pas</p>
-            <Link className="K-error__link" to="/">Retourner sur la page d'accueil</Link>
+            <Link className="K-error__link" to="/kasa">Retourner sur la page d'accueil</Link>
         </main>
     )
 }

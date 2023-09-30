@@ -8,7 +8,7 @@ const Header = () => {
         <header className='k-header'>
             <img src={logo} alt='Kasa' className='k-header__logo' />
             <nav className='k-header__nav'>
-                <Link  className='k-link k-header__nav__home' to="/">ACCUEIL</Link>
+                <Link  className='k-link k-header__nav__home' to="/kasa">ACCUEIL</Link>
                 <Link  className='k-link k-header__nav__about' to="/About">A PROPOS</Link>
             </nav>
         </header>
