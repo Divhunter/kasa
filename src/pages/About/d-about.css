@@ -1,0 +1,47 @@
+/************************************************************************************************************/
+/********************************************* media queries ************************************************/
+/********************************** New rules if the screen is at more 767px ********************************/
+@media screen and (min-width: 768px) {
+    .k-about {
+        padding-bottom: 1.5vw;
+        margin-bottom: 3.1vw;
+        margin-top: 6.1vw;
+    }
+    
+    .k-about__banner {
+        width: 90.7vw;
+        height: 16.3vw;
+        margin-bottom: 0;
+        border-radius: 1.8vw;
+    }
+    
+    .k-about__banner__m-picture {
+        display: none;
+    }
+    
+    .k-about__banner__d-picture {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .k-about__banner__background {
+        height: 16.3vw;
+    }
+    
+    .k-about__collapse {
+        width: 90.7vw;
+        height: auto;
+        padding-bottom: 6.8vw;
+        margin-top: 2.3vw;
+    }
+
+    .k-about__collapse__container {
+        display: block;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 75vw;
+        border-radius: 0.36vw;
+    }
+}

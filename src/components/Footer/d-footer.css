@@ -1,0 +1,22 @@
+/************************************************************************************************************/
+/********************************************* media queries ************************************************/
+/********************************** New rules if the screen is at more 767px ********************************/
+@media screen and (min-width: 768px) {
+    .k-footer {
+        width: auto;
+        height: 15.3vw;
+        background-color: black;
+    }
+
+    .k-footer__logo {
+        margin-top: 4.8vw;
+        width: 9vw;
+        height: auto;
+    }
+
+    .k-footer__text {
+        font-weight: 500;
+        font-size: 1.75vw;
+        margin-bottom: 2.1vw;
+    }
+}

@@ -1,0 +1,23 @@
+.k-footer {
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 55.73vw;
+    background-color: black;
+}
+
+.k-footer__logo {
+    position: relative;
+    margin-top: 16.53vw;
+    width: 32.53vw;
+    height: 10.51vw;
+}
+
+.k-footer__text {
+    position: relative;
+    font-weight: 500;
+    font-size: 3.1vw;
+    line-height: 143%;
+    color: white;
+    margin-bottom: 16.53vw;
+}

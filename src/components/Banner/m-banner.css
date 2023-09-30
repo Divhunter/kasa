@@ -1,0 +1,44 @@
+.k-home-banner {
+    position: relative;
+    width: auto;
+    height: 29vw;
+    border-radius: 2.66vw;
+    margin-bottom: 5.86vw;
+    margin-top: 9.7vw;
+}
+
+.k-home-banner__d-picture {
+    display: none;
+}
+
+.k-home-banner__m-picture {
+    display: block;
+    position: absolute;
+    left: -2.88vw;
+    width: 92.1vw;
+    height: 29vw;
+}
+
+.k-home-banner__background {
+    position: absolute;
+    width: 100%;
+    height: 29vw;
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+}
+
+.k-home-banner__text {
+    position: absolute;
+    display: block;
+    width: 58vw;
+    height: 12.8vw;
+    left: 5.8%;
+    right: 30%;
+    margin-top: 10%;
+    font-weight: 500;
+    font-size: 6.2vw;
+    line-height: 100%;
+    align-items: flex-end;
+    color: #FFFFFF;
+}

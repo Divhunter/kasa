@@ -1,0 +1,50 @@
+.k-about {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 9.9vw;
+}
+
+.k-about__banner {
+    position: relative;
+    margin-bottom: 5.1vw;
+    width: auto;
+    height: 59.1vw;
+    border-radius: 2.66vw;
+    overflow: hidden;
+}
+
+.k-about__banner__m-picture {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.k-about__banner__d-picture {
+    display: none;
+}
+
+.k-about__banner__background {
+    position: absolute;
+    width: 100%;
+    height: 59.1vw;
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+}
+
+.k-about__collapse {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-bottom: 45vw;
+}
+
+.k-about__collapse__container {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 1.33vw;
+}

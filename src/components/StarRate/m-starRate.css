@@ -1,0 +1,13 @@
+.container-stars {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 26.13vw;
+    height: 4.8vw;
+}
+
+.stars {
+    position: relative;
+    width: 4vw;
+    height: 4vw;
+}

@@ -1,0 +1,72 @@
+/************************************************************************************************************/
+/********************************************* media queries ************************************************/
+/********************************** New rules if the screen is at more 767px ********************************/
+@media screen and (min-width: 768px) {
+    .k-lodgement {
+        width: 90.7vw;
+        margin-bottom: 0;
+        margin-top: 4.4vw;
+    }
+
+    .k-lodgement__title {
+        font-size: 2.63vw;
+        margin-bottom: 0;
+        margin-top: -1.8vw;
+    }
+
+    .k-lodgement__sub-title {
+        font-size: 1.3vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .k-lodgement__tags-container {
+        margin-bottom: 0;
+    }
+
+    .k-lodgement__stars-and-host-container {
+        float: right;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-top: -10vw;
+        margin-bottom: 1.3vw;
+        width: 14.34vw;
+    }
+
+    .k-lodgement__stars-and-host-container__host {
+        right: -1.1vw;
+        width: 12.2vw;
+        height: 4.7vw;
+        margin-bottom: 1.75vw;
+    }
+    
+    .k-lodgement__stars-and-host-container__host__name {
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 6.8vw;
+        height: 3.8vw;
+        font-size: 1.3vw;
+    }
+    
+    .k-lodgement__stars-and-host-container__host__pic {
+        width: 4.7vw;
+        height: 4.7vw;
+    }
+    
+    .k-lodgement__collapse {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: 0.75vw;
+        width: 90.7vw;
+        height: auto;
+        padding-bottom: 5vw;
+    }
+
+    .k-lodgement__collapse__container {
+        left: 0;
+        transform: translate(0, 0);
+        width: 42.6vw;
+        border-radius: 0.36vw;
+        padding-bottom: 13vw;
+    }
+}

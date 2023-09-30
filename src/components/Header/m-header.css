@@ -1,0 +1,51 @@
+.k-header {
+    position: relative;
+    top: 5.33vw;
+    width: auto;
+    height: 12.53vw;
+}
+
+.k-header__logo {
+    position: absolute;
+    width: 38.66vw;
+    height: 12.53vw;
+}
+
+.k-header__nav {
+    position: absolute;
+    right: 0;
+    top: 38.3%;
+    bottom: 25.53%;
+    width: 37.5vw;
+    height: 4.5vw;
+}
+
+.k-link {
+    position: absolute;
+    font-weight: 500;
+    font-size: 3.2vw;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.k-header__nav__home {
+    display: inline-block;
+    text-align: end;
+    width: 15.7vw;
+    text-decoration-line: none;
+}
+
+.k-header__nav__home:hover {
+    text-decoration-line: underline;
+}
+
+.k-header__nav__about {
+    right: 0;
+    text-decoration-line: none;
+}
+
+.k-header__nav__about:hover {
+    text-decoration-line: underline;
+}

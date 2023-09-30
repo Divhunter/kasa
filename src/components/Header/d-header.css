@@ -1,0 +1,32 @@
+/************************************************************************************************************/
+/********************************************* media queries ************************************************/
+/********************************** New rules if the screen is at more 767px ********************************/
+@media screen and (min-width: 768px) {
+    .k-header {
+        margin-top: 2.9vw;
+        width: 90.7vw;
+        height: 5vw;
+    }
+
+    .k-header__logo {
+        width: 15.38vw;
+        height: 5vw;
+    }
+
+    .k-header__nav {
+        right: 0;
+        align-items: center;
+        width: 22.6vw;
+        height: 2.2vw;
+    }
+
+    .k-header__nav__home {
+        width: 9.9vw;
+        height: auto;
+        text-decoration-line: none;
+    }
+
+    .k-link {
+        font-size: 1.4vw;
+    }
+}

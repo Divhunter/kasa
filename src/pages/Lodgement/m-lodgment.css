@@ -1,0 +1,92 @@
+.k-lodgement {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 5.33vw;
+    margin-top: 12.6vw;
+}
+
+.k-lodgement__title {
+    position: relative;
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.65vw;
+    line-height: 143%;
+    color: #FF6060;
+    margin-top: 0;
+    margin-bottom: 1.33vw;
+}
+
+.k-lodgement__sub-title {
+    position: relative;
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.62vw;
+    line-height: 143%;
+    color: #FF6060;
+    margin-top: 0;
+    margin-bottom: 2.67vw;
+}
+
+.k-lodgement__tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 3.09vw;
+}
+
+.k-lodgement__stars-and-host-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.k-lodgement__stars-and-host-container__host {
+    position: relative;
+    width: 36.13vw;
+    height: 8.8vw;
+}
+
+.k-lodgement__stars-and-host-container__host__name {
+    position: absolute;
+    width: 24.8vw;
+    height: 8.8vw;
+    text-align: right;
+    font-size: 3.1vw;
+    font-weight: 500;
+    color:#FF6060;
+    line-height: 143%;
+}
+
+.k-lodgement__stars-and-host-container__host__pic {
+    position: absolute;
+    width: 8.53vw;
+    height: 8.53vw;
+    border-radius: 50%;
+    right: 0;
+}
+
+.k-lodgement__collapse {
+    top: -0.9vw;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.k-lodgement__collapse__container {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 1.33vw;
+}
